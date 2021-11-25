@@ -51,7 +51,7 @@ const studenti =
 
 for ( i = 0; i < studenti.length; i++){
 
-    if ( i !== studenti[]) {
+    if ( i !== studenti[i].eta ) {
         
     console.log(studenti[i]);
 
