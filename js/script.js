@@ -20,3 +20,35 @@ const studenteUno = {
 for ( let key in studenteUno){
     console.log(studenteUno[key]);
 }
+
+// ESERCIZIO 2
+
+const studenti = 
+[
+    {   
+        nome: 'Lorenzo',
+        cognome: 'Castelli',
+        eta: 19
+    },
+    {   
+        nome: 'Marco',
+        cognome: 'Piotto',
+        eta: 45
+    },
+    {   
+        nome: 'Luigi',
+        cognome: 'Andreatta',
+        eta: 15
+    },
+    {   
+        nome: 'Marco',
+        cognome: 'Novello',
+        eta: 22
+
+    }
+
+];
+
+for ( let key in studenti){
+    console.log(studenti[key]);
+}
