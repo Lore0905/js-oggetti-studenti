@@ -11,15 +11,15 @@
 
 // ESERCIZIO 1
 
-const studenteUno = {
-    nome: 'Lorenzo',
-    cognome: 'Castelli',
-    eta: 19
-};
+// const studenteUno = {
+//     nome: 'Lorenzo',
+//     cognome: 'Castelli',
+//     eta: 19
+// };
 
-for ( let key in studenteUno){
-    console.log(studenteUno[key]);
-}
+// for ( let key in studenteUno){
+//     console.log(studenteUno[key]);
+// }
 
 // ESERCIZIO 2
 
@@ -49,18 +49,23 @@ const studenti =
 
 ];
 
-for ( let key in studenti){
-    console.log(studenti[key]);
+for ( i = 0; i < studenti.length; i++){
+
+    if ( i !== studenti[]) {
+        
+    console.log(studenti[i]);
+
+    }
 }
 
-// ESERCIZIO 3
+// // ESERCIZIO 3
 
-const newStudent = {
-    nome: prompt('Nome'),
-    cognome: prompt('Cognome'),
-    eta: parseInt(prompt('età'))
-};
+// const newStudent = {
+//     nome: prompt('Nome'),
+//     cognome: prompt('Cognome'),
+//     eta: parseInt(prompt('età'))
+// };
 
-studenti.push(newStudent);
+// studenti.push(newStudent);
 
-console.log(studenti);
+// console.log(studenti);
