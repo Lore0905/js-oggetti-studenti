@@ -52,3 +52,15 @@ const studenti =
 for ( let key in studenti){
     console.log(studenti[key]);
 }
+
+// ESERCIZIO 3
+
+const newStudent = {
+    nome: prompt('Nome'),
+    cognome: prompt('Cognome'),
+    eta: parseInt(prompt('età'))
+};
+
+studenti.push(newStudent);
+
+console.log(studenti);
