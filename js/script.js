@@ -51,11 +51,8 @@ const studenti =
 
 for ( i = 0; i < studenti.length; i++){
 
-    if ( i !== studenti[i].eta ) {
-        
-    console.log(studenti[i]);
-
-    }
+    console.log(studenti[i].nome);
+    console.log(studenti[i].cognome);
 }
 
 // // ESERCIZIO 3
